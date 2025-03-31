@@ -1,0 +1,38 @@
+/*O CSS le como cascata então o que está em baixo será aplicado em detrimento ao que está em cima*/
+.card {
+    width: 500px;
+    height: fit-content;
+    background-color: aliceblue;
+    border-radius: 25px;
+    border: solid 2px navy;
+    margin: 20px;
+    padding: 40px; /*Padding é melhor que margin?*/
+}
+
+.border {
+    border-radius: 20px;
+}
+
+.icone1 {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/706/706830.png"); /*É possível adicionar a url da imagem no css*/
+    width: 100%; /*Adiciona imagem em seu tamanho máximo (pode ignorar o tamanho da div!)*/
+    height: 100%; /*Usar porcenteagem torna a página mais adaptável*/
+    margin-top: 20px;
+    background-size: cover; /*Faz a imagem ocupar somente o tamanho da div*/
+    /*
+    tipo row
+    justify content alinha em uma linha
+    align-items alinha em coluna*/
+}
+
+.icone2 {
+    background-image: url("https://cdn-icons-png.flaticon.com/256/3681/3681928.png");
+    width: 100px; 
+    height: 100px;
+    margin-top: 20px;
+    background-size: cover; 
+}
+
+.main-color {
+    color: navy;
+}
